@@ -5,7 +5,7 @@ body {
 
 }
 header,footer{
-    background-color: aquamarine;
+    background-color: brown;
 }
 .site-title{
 
@@ -16,14 +16,30 @@ header,footer{
     box-shadow: 0 0 2px 1px black;
    
 }
-ul{
-   
+
+nav a{
+    text-decoration: none;
+    background-color: greenyellow;
+    border: 1px;
+    color: white;
+}
+nav ul{
     list-style: none;
 }
 
 
-ul li:nth-child(odd){
+div>ul{
+   
+    list-style: square  ;
+}
+
+
+div>ul>li:nth-child(odd){
 background-color: aquamarine;
 }
 
-nav ul
+
+nav a:hover{
+    background-color: purple;
+
+}
