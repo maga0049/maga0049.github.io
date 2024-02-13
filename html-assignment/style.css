@@ -25,3 +25,5 @@ ul{
 ul li:nth-child(odd){
 background-color: aquamarine;
 }
+
+nav ul
