@@ -18,7 +18,7 @@ header,footer{
 ul{
     list-style-type: none;
 }
-a{
+
+.navigation{
     text-decoration: none;
 }
-
