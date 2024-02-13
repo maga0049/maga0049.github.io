@@ -24,11 +24,14 @@ ul{
 
 
 .link{
-    text-decoration: none;
+    
     list-style: none;
     background-color: greenyellow;
     border-style: double;
     
+}
+a{
+    text-decoration: none;
 }
 a:hover{
     background-color: blueviolet;
