@@ -24,8 +24,8 @@ ul{
 
 
 .link{
-    list-style: none;
     text-decoration: none;
+    list-style: none;
     background-color: greenyellow;
     border-style: double;
     
