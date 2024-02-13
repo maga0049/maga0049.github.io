@@ -9,22 +9,24 @@ header,footer{
 }
 .site-title{
 
+    
     color: red;
 }
 
 #my-image{
-    box-shadow: 0 0 2px 1px black;
+    box-shadow: 0 2px 1px black;
    
 }
 
 nav a{
-    text-decoration: none;
-    background-color: greenyellow;
-    border: 1px;
+    text-decoration: none;  
     color: white;
+    border: 1px solid black;
+     
 }
 nav ul{
     list-style: none;
+    background-color: brown;  
 }
 
 
