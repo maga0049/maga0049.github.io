@@ -19,6 +19,13 @@ ul{
     list-style-type: none;
 }
 
-.navigation{
+
+.link{
     text-decoration: none;
+    background-color: greenyellow;
+    border-style: double;
+    
+}
+a:hover{
+    background-color: blueviolet;
 }
