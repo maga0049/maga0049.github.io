@@ -18,20 +18,10 @@ header,footer{
 }
 ul{
    
-    list-style: square;
-}
-
-
-.link{
-    
     list-style: none;
-    background-color: greenyellow;
-    border-style: double;
-    
 }
-a{
-    text-decoration: none;
-}
-a:hover{
-    background-color: blueviolet;
+
+
+ul li:nth-child(odd){
+background-color: aquamarine;
 }
