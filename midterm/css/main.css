@@ -13,12 +13,21 @@ body {
 
 }
 
+nav ul{
+    text-align: center;
+    overflow: auto;
+    list-style: none;
+}
+
 nav li a {
     width: 100px;
     padding: 20px 20px;
     display: inline-block;
 
+
 }
+
+
 .imagewidetext{
     color: white;
     font-size: 50px;
@@ -44,8 +53,11 @@ nav a{
     text-decoration: none;
     font-size: 25px;
 }
+nav li{
+    display: inline-block;
+}
 .fish{
-    border: 10px solid rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
 
 }
 p {
