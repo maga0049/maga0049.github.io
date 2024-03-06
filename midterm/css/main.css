@@ -33,7 +33,7 @@ h1 img {
     width: 80%;
 }
 
-nav ul {
+nav ul{
     text-align: center;
     overflow: auto;
     list-style: none;
@@ -68,3 +68,4 @@ nav li a {
     float: left;
     margin-right: 1rem;
 }
+
