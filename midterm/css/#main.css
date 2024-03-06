@@ -4,6 +4,12 @@ body{
 }
 
 .star{
-    position: relative;
     text-align: center;
+    position: relative;
+
+}
+.imagewidetextt{
+color: white;
+position: absolute;
+left: 50%;
 }
