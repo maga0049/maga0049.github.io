@@ -25,11 +25,12 @@ h1 image {
 }
 .star{
     background-color: aliceblue;
-    margin: 20px auto%;
+    margin: 20px auto;
     margin: 20% auto;
     padding:2rem;
     width: 80%;
 }
+
 
 nav ul{
     text-align: center;
@@ -95,7 +96,7 @@ p {
 }
 
 .clearfix::after {
-    content: ""; 
+    content: "";/*content required*/ 
     display: table; 
     clear: both;  
 }
