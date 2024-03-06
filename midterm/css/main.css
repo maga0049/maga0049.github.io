@@ -1,17 +1,35 @@
 body {
-    background-color: aqua;
+    background-color: #aad4cf;
 }
+
+.widestar{
+    width: 100%;
+}
+
 
 .star{
     text-align: center;
     position: relative;
 
 }
-.imagewidetextt{
-color: white;
-position: absolute;
-left: 50%;
+
+nav li a {
+    width: 100px;
+    padding: 20px 20px;
+    display: inline-block;
+
 }
+.imagewidetext{
+    color: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 55px;
+
+}
+
 footer{
     text-align: right;
 }
@@ -21,6 +39,14 @@ footer{
     float: left;
     margin-bottom: 10px;
     margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.fish{
+    border: 10px solid rgb(0, 0, 0);
+
 }
 p {
     font-size: 18px;
