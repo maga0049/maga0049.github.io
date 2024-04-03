@@ -96,8 +96,36 @@
 <article>
     <h1>Contact Us</h1>
     <h3>Send us a message</h3>
-    <form action="index.html">
-        <label for="full name"></label>
+    <form action="index.html" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+        <input type="Send" value="send">
+</article>
+
+<article>
+<h1>Hours of operation</h1>
+<table>
+    <tr>
+        <th>Days</th>
+        <th>Hours</th>
+    </tr>
+    <tr>
+        <td>Monday-Friday</td>
+        <td>9 AM-6 PM</td>
+    </tr>
+    <tr>
+        <td>Saturday-Sunday</td>
+        <td>Closed</td>
+    </tr>
+
+</table>
 </article>
 
 
