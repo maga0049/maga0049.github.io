@@ -1,0 +1,36 @@
+
+header {
+    background-color: #222323;
+    color: #c78b07;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    height: 100px;
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav a {
+    color: #c78b07;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  
